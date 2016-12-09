@@ -1,0 +1,26 @@
+{
+  "name": "devtronic/tree-classifier",
+  "description": "Tree Classifier",
+  "type": "library",
+  "version": "1.0.0",
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.6"
+  },
+  "license": "LGPL-3.0",
+  "authors": [
+    {
+      "name": "Julian Finkler",
+      "email": "julian@developer-heaven.de"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Devtronic\\TreeClassifier\\": "src/",
+      "Devtronic\\Tests\\TreeClassifier\\": "tests/"
+    }
+  }
+}
